@@ -1,0 +1,10 @@
+首先建立一张mysql的数据表：
+CREATE TABLE messages(
+    id INT NOT NULL AUTO_INCREMENT,
+    subject VARCHAR(100) NOT NULL,
+    reply_to INT,
+    text MEDIUMTEXT NOT NULL,
+    PRIMARY KEY(id)
+)
+
+然后你要确定你的系统中已经安装了连接mysql的python模块，怎么确定呢。命令行下，进入python，然后输入import pymysql,注意大小写，如果没有报错，说明安装了

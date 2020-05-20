@@ -1,0 +1,15 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="readExcel.testReadExcel.*" />
+          <option value="DemoAPI.database.test_data.db_fixture" />
+          <option value="DemoAPI.run_demo.db_fixture" />
+          <option value="DemoAPI.run_demo.package" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
